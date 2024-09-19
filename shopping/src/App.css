@@ -1,0 +1,57 @@
+*title img{
+    display: flex;
+}
+
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.center ul li {
+list-style: none;
+display: inline-flex;
+margin: 0px 10px;
+}
+
+.left {
+    flex: 4;
+    
+}
+
+.center{
+    display: flex;
+    margin-top: 15px;
+}
+
+.search{
+    flex: 2;
+    margin-left: 80px;
+    padding: 5px;
+    margin-top: 15px;  
+  
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+   gap: 50px;
+   margin-right: 50px;
+   margin-top: 15px;
+}
+
+.img1 img{
+    width: 105px;
+    height: 45px;
+}
+
+.childimg img{
+
+    height: 300px;
+} 
+
+.banner img{
+    width: 100%;
+    height: 520px;
+}
